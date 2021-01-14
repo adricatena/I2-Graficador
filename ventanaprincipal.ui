@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VentanaPrincipal</class>
+ <widget class="QMainWindow" name="VentanaPrincipal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>690</width>
+    <height>416</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>30</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>VentanaPrincipal</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>13</x>
+      <y>13</y>
+      <width>359</width>
+      <height>235</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QwtPlot" name="qwtPlot"/>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="labGrafica1">
+         <property name="text">
+          <string>Grafica 1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labGrafica2">
+         <property name="palette">
+          <palette>
+           <active>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>255</red>
+               <green>0</green>
+               <blue>0</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </active>
+           <inactive>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>255</red>
+               <green>0</green>
+               <blue>0</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </inactive>
+           <disabled>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>120</red>
+               <green>120</green>
+               <blue>120</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </disabled>
+          </palette>
+         </property>
+         <property name="text">
+          <string>Grafica 2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labGrafica3">
+         <property name="palette">
+          <palette>
+           <active>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>0</red>
+               <green>170</green>
+               <blue>0</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </active>
+           <inactive>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>0</red>
+               <green>170</green>
+               <blue>0</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </inactive>
+           <disabled>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>120</red>
+               <green>120</green>
+               <blue>120</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </disabled>
+          </palette>
+         </property>
+         <property name="text">
+          <string>Grafica 3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labGrafica4">
+         <property name="palette">
+          <palette>
+           <active>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>0</red>
+               <green>0</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </active>
+           <inactive>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>0</red>
+               <green>0</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </inactive>
+           <disabled>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>120</red>
+               <green>120</green>
+               <blue>120</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </disabled>
+          </palette>
+         </property>
+         <property name="text">
+          <string>Grafica 4</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labGrafica5">
+         <property name="palette">
+          <palette>
+           <active>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>255</red>
+               <green>255</green>
+               <blue>0</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </active>
+           <inactive>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>255</red>
+               <green>255</green>
+               <blue>0</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </inactive>
+           <disabled>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>120</red>
+               <green>120</green>
+               <blue>120</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </disabled>
+          </palette>
+         </property>
+         <property name="text">
+          <string>Grafica 5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>690</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionNuevo"/>
+    <addaction name="separator"/>
+    <addaction name="actionArchivo1"/>
+    <addaction name="actionArchivo2"/>
+    <addaction name="actionArchivo3"/>
+    <addaction name="actionArchivo4"/>
+    <addaction name="actionArchivo5"/>
+    <addaction name="separator"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuGrafica">
+    <property name="title">
+     <string>Grafica</string>
+    </property>
+    <widget class="QMenu" name="menuCantidad_de_puntos">
+     <property name="title">
+      <string>Cantidad de puntos</string>
+     </property>
+     <widget class="QMenu" name="menuGrafica_1">
+      <property name="title">
+       <string>Grafica 1</string>
+      </property>
+      <addaction name="actionGrafica1"/>
+     </widget>
+     <widget class="QMenu" name="menuGrafica_2">
+      <property name="title">
+       <string>Grafica 2</string>
+      </property>
+      <addaction name="actionGrafica2"/>
+     </widget>
+     <widget class="QMenu" name="menuGrafica_3">
+      <property name="title">
+       <string>Grafica 3</string>
+      </property>
+      <addaction name="actionGrafica3"/>
+     </widget>
+     <widget class="QMenu" name="menuGrafica_4">
+      <property name="title">
+       <string>Grafica 4</string>
+      </property>
+      <addaction name="actionGrafica4"/>
+     </widget>
+     <widget class="QMenu" name="menuGrafica_5">
+      <property name="title">
+       <string>Grafica 5</string>
+      </property>
+      <addaction name="actionGrafica5"/>
+     </widget>
+     <addaction name="menuGrafica_1"/>
+     <addaction name="menuGrafica_2"/>
+     <addaction name="menuGrafica_3"/>
+     <addaction name="menuGrafica_4"/>
+     <addaction name="menuGrafica_5"/>
+    </widget>
+    <widget class="QMenu" name="menuValor_maximo">
+     <property name="title">
+      <string>Valor máximo</string>
+     </property>
+     <addaction name="actionValMax"/>
+    </widget>
+    <widget class="QMenu" name="menuValor_minimo">
+     <property name="title">
+      <string>Valor mínimo</string>
+     </property>
+     <addaction name="actionValMin"/>
+    </widget>
+    <addaction name="actionNueva_grafica"/>
+    <addaction name="actionSuperponer_grafica"/>
+    <addaction name="separator"/>
+    <addaction name="menuCantidad_de_puntos"/>
+    <addaction name="menuValor_maximo"/>
+    <addaction name="menuValor_minimo"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuGrafica"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+   <addaction name="actionNuevo"/>
+   <addaction name="actionNueva_grafica"/>
+   <addaction name="actionSuperponer_grafica"/>
+   <addaction name="actionSalir"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNuevo">
+   <property name="icon">
+    <iconset resource="imagenes.qrc">
+     <normaloff>:/img/img/New-32.png</normaloff>:/img/img/New-32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nuevo archivo</string>
+   </property>
+  </action>
+  <action name="actionArchivo1">
+   <property name="text">
+    <string/>
+   </property>
+  </action>
+  <action name="actionArchivo2">
+   <property name="text">
+    <string/>
+   </property>
+  </action>
+  <action name="actionArchivo3">
+   <property name="text">
+    <string/>
+   </property>
+  </action>
+  <action name="actionArchivo4">
+   <property name="text">
+    <string/>
+   </property>
+  </action>
+  <action name="actionArchivo5">
+   <property name="text">
+    <string/>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="icon">
+    <iconset resource="imagenes.qrc">
+     <normaloff>:/img/img/Exit-32.png</normaloff>:/img/img/Exit-32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionNueva_grafica">
+   <property name="icon">
+    <iconset resource="imagenes.qrc">
+     <normaloff>:/img/img/Brushes-48.png</normaloff>:/img/img/Brushes-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nueva grafica</string>
+   </property>
+  </action>
+  <action name="actionSuperponer_grafica">
+   <property name="icon">
+    <iconset resource="imagenes.qrc">
+     <normaloff>:/img/img/Graphique (1).png</normaloff>:/img/img/Graphique (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>Superponer grafica</string>
+   </property>
+  </action>
+  <action name="actionValMax">
+   <property name="text">
+    <string/>
+   </property>
+  </action>
+  <action name="actionValMin">
+   <property name="text">
+    <string/>
+   </property>
+  </action>
+  <action name="actionGrafica1">
+   <property name="text">
+    <string/>
+   </property>
+  </action>
+  <action name="actionGrafica2">
+   <property name="text">
+    <string/>
+   </property>
+  </action>
+  <action name="actionGrafica3">
+   <property name="text">
+    <string/>
+   </property>
+  </action>
+  <action name="actionGrafica4">
+   <property name="text">
+    <string/>
+   </property>
+  </action>
+  <action name="actionGrafica5">
+   <property name="text">
+    <string/>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QwtPlot</class>
+   <extends>QFrame</extends>
+   <header>qwt_plot.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="imagenes.qrc"/>
+ </resources>
+ <connections/>
+</ui>

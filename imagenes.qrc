@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/folder_open-32.png</file>
+        <file>img/Exit-32.png</file>
+        <file>img/New-32.png</file>
+        <file>img/Brushes-48.png</file>
+        <file>img/Graphique (1).png</file>
+    </qresource>
+</RCC>
